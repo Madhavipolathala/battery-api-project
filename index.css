@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #f8eeee;
+    color: black;
+    text-align: center;
+    padding: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid pink;
+
+}
+
+.item {
+    display: flex;
+}
+
+.item span {
+    color: rgb(234, 93, 116);
+    padding: 25px;
+}
+
+.battery-container {
+    width: 500px;
+    box-shadow: 2px 2px 10px rgb(224, 223, 222);
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
